@@ -1,12 +1,12 @@
 <ivy-module version="2.0">
-    <info organisation="com.example" module="cl-jobserver" revision="1.0.0-SNAPSHOT"/>
+    <info organisation="com.example" module="jobserver"/>
     <dependencies>
-        <dependency org="com.example" name="Util" rev="2.1.0" />
-        <dependency org="com.example" name="common" rev="3.0.5" />
-        <dependency org="com.example" name="occupancy" rev="1.7.2" />
-        <dependency org="com.example" name="fire-rating" rev="4.2.0" />
-        <dependency org="com.example" name="csm" rev="5.1.1" />
-        <dependency org="com.example" name="rating" rev="6.0.0" />
-        <dependency org="com.example" name="compose-print" rev="1.0.3" />
+        <dependency org="com.shared" name="Cl_Util" rev="2.1.0"/>
+        <dependency org="com.shared" name="Clpss_Common" rev="3.0.0"/>
+        <dependency org="com.shared" name="Clpss_Occupancy" rev="1.5.0"/>
+        <dependency org="com.shared" name="FireRating" rev="4.2.0"/>
+        <dependency org="com.shared" name="CSM" rev="1.0.0"/>
+        <dependency org="com.shared" name="Clpss_RateCLpolicy" rev="2.0.0"/>
+        <dependency org="com.shared" name="Clpss_ComposePrint" rev="1.0.0"/>
     </dependencies>
 </ivy-module>
